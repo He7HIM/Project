@@ -15,7 +15,7 @@ let cachedProxyList = [];
 const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = ["trojan", "vless", "ss"];
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/Project/main/proxyList.txt";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/heads/main/proxyList.txt";
 const DOH_SERVER = "https://doh.dns.sb/dns-query";
 const PROXY_HEALTH_CHECK_API = "https://foolbot.azurewebsites.net/api/v1/proxy/check";
 const CONVERTER_URL =
@@ -99,7 +99,7 @@ function getAllConfig(request, hostName, proxyList, page = 0) {
 
     // Build HTML
     const document = new Document(request);
-    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>Nautica</span>");
+    document.setTitle("Welcome to <span class='text-blue-500 font-semibold'>☁️☁️☁️TOpBOUY7 ☁️🪂🤿⛷️🔫🏂SkyClouds 🐼🤺🎮☁️☁️☁️</span>");
     document.addInfo(`Total: ${proxyList.length}`);
     document.addInfo(`Page: ${page}/${Math.floor(proxyList.length / PROXY_PER_PAGE)}`);
 
