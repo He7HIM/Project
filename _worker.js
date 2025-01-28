@@ -1,11 +1,11 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "mrtechke.storr"; // Ganti dengan domain utama kalian
-const serviceName = "TOpPLUG"; // Ganti dengan nama workers kalian
-const apiKey = "TeydIv8F3DPAGNpw6GWmLR3EWA-9TZYbnhQStFKO"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const rootDomain = "7topplug.us.kg"; // Ganti dengan domain utama kalian
+const serviceName = "TG"; // Ganti dengan nama workers kalian
+const apiKey = "7gtRulB2h4xivtADYdxtMrrZCkaOBBilphXArosZ-9TZYbnhQStFKO"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "irene13a3@gmail.com"; // Ganti dengan email yang kalian gunakan
-const accountID = "f944385e56a6f37462cfc9046496739f"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const accountID = "f7f5803bba59b2251b2db7b1c99724e7"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "4f7afa537b266a432a28d83a1994d9f214728"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = true;
 let proxyIP = "";
