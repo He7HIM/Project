@@ -4,7 +4,7 @@ import { connect } from "cloudflare:sockets";
 const rootDomain = "7topplug.us.kg"; // Ganti dengan domain utama kalian
 const serviceName = "TG"; // Ganti dengan nama workers kalian
 const apiKey = "7gtRulB2h4xivtADYdxtMrrZCkaOBBilphXArosZ-9TZYbnhQStFKO"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "irene13a3@gmail.com"; // Ganti dengan email yang kalian gunakan
+const apiEmail = "he7him777@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "f7f5803bba59b2251b2db7b1c99724e7"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 const zoneID = "1b4535022d76560b3e359e65c48a98488161e"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = true;
@@ -15,7 +15,7 @@ let cachedProxyList = [];
 const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = ["trojan", "vless", "ss"];
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/heads/main/proxyList.txt";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/He7HIM/Project/main/proxyList.txt";
 const DOH_SERVER = "https://doh.dns.sb/dns-query";
 const PROXY_HEALTH_CHECK_API = "https://foolbot.azurewebsites.net/api/v1/proxy/check";
 const CONVERTER_URL =
